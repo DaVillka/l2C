@@ -1,0 +1,14 @@
+﻿Build started 24.08.2019 11:21:15.
+     1>Project "D:\Projeck\L2C_ProjectHF\Patch\Patch.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PATCH_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt mainDll.cpp
+         mainDll.cpp
+       Link:
+         D:\Program\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projeck\L2C_ProjectHF\Release\DSETUP.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:crt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projeck\L2C_ProjectHF\Release\DSETUP.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projeck\L2C_ProjectHF\Release\DSETUP.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO /DLL Release\mainDll.obj
+            Creating library D:\Projeck\L2C_ProjectHF\Release\DSETUP.lib and object D:\Projeck\L2C_ProjectHF\Release\DSETUP.exp
+         Patch.vcxproj -> D:\Projeck\L2C_ProjectHF\Release\DSETUP.dll
+     1>Done Building Project "D:\Projeck\L2C_ProjectHF\Patch\Patch.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.06
